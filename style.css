@@ -194,3 +194,77 @@
 .carbox2-style{
     margin-left: 48px
 }
+/* donate styles */
+#donate{
+    width: 1280px;
+    height: 464px;
+    margin: auto;
+    margin-top: 80px;
+}
+#donate .donate-content{
+    margin-bottom: 32px;
+}
+#donate .donate-content .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+#donate .donate-content .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.taka-card{
+    display: flex;
+    justify-content: center;
+    
+}
+.taka-card-style{
+    width: 252px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    margin-right: 24px;
+    text-align: center;
+
+}
+.form{
+    text-align: center;
+}
+.input{
+    margin-top: 32px;
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+}
+.taka-btn{
+    text-align: center;
+    margin-top: 32px;
+}
+.taka-btn .btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px 17px 34px;
+
+}
