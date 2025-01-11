@@ -48,3 +48,79 @@
     height: 400px;
     margin-top: 80px;
 }
+/* Visiom styles */
+#vision-future{
+    width: 1280px;
+    height: 765px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+    
+
+
+#vision-future .vision-content .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+#vision-future .vision-content .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.cardbox-content{
+    display: flex;
+    
+    margin-top: 32px;
+}
+.card-font{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 32px;
+}
+.cardbox1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-right: 24px;
+    /* width: 410px;
+    height: 325px; */
+}
+.cardbox2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    margin-right: 24px;
+}
+.cardbox3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+.btn-cardbox{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-cardbox-bg1{
+    background-color: rgb(84, 144, 245);
+}
+.btn-cardbox-bg2{
+    background-color: rgb(9, 161, 92);
+}
+.btn-cardbox-bg3{
+    background-color: rgb(255, 194, 57);
+}
+
+
