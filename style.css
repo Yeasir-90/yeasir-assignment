@@ -268,3 +268,67 @@
     padding: 17px 34px 17px 34px;
 
 }
+/* subscribe style */
+#subscribe{
+    width: 1280px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: auto;
+    
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-content{
+    margin: 0;
+}
+#subscribe .subscribe-content .title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#subscribe .subscribe-content .description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+}
+.sub-form{
+    text-align: center;
+    
+}
+.sub-form .input{
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    margin-top: 24px;
+    
+}
+.sub-form input[type=text]::placeholder{
+    text-align: left;
+}
+.sub-form .sub-btn{
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px 17px 34px;
+    border: none;
+    width: 150px;
+    height: 54px;
+    position: relative;
+    right: 4px;
+    top: 2.5px;
+}
